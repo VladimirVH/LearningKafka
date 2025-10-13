@@ -23,6 +23,7 @@ public class ProductController {
         String productId = productService.createProduct(product);
 
         return ResponseEntity.status(HttpStatus.CREATED).body(productId);
+        // just a small test ...
     }
 
 }
